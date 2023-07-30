@@ -1,7 +1,16 @@
 package grammar;
 
-// Grammar
-//
+// id     -> letter (letter | digit)*
+// num    -> digits
+// real   -> digits . digits
+// digits -> digit+
+// digit  -> [0-9]
+// letter -> [A-Za-z]
+// basic  -> int
+//          | char
+//          | bool
+//          | float
+
 // program -> block
 // block   -> { decls stmts }
 // decls   -> decls decl

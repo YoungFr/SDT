@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5570183-2fd4-46d3-aba8-321d9d651372" name="Changes" comment="add grammar definition">
+    <list default="true" id="a5570183-2fd4-46d3-aba8-321d9d651372" name="Changes" comment="add detailed grammar definition">
+      <change afterPath="$PROJECT_DIR$/src/lexer/Lexer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lexer/Num.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lexer/Real.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lexer/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lexer/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lexer/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/grammar/Grammar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/Grammar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +33,14 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/lexer/Lexer.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2TFdE086xdsxRhaxOsJ0tZGT369" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -51,7 +65,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;F:/ideaProjects/SDT/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -82,7 +96,8 @@
       <workItem from="1690645527160" duration="1466000" />
       <workItem from="1690647016430" duration="1474000" />
       <workItem from="1690648506379" duration="79000" />
-      <workItem from="1690684370842" duration="1784000" />
+      <workItem from="1690684370842" duration="11106000" />
+      <workItem from="1690710509074" duration="6304000" />
     </task>
     <task id="LOCAL-00001" summary="Initialization">
       <created>1690643251613</created>
@@ -98,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690646537067</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add detailed grammar definition">
+      <created>1690686186710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690686186710</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +195,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialization" />
     <MESSAGE value="add grammar definition" />
-    <option name="LAST_COMMIT_MESSAGE" value="add grammar definition" />
+    <MESSAGE value="add detailed grammar definition" />
+    <option name="LAST_COMMIT_MESSAGE" value="add detailed grammar definition" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
